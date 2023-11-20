@@ -20,11 +20,13 @@ class Blog {
   }
 }
 
-// Progression 2: Setup an event listner - add two functions
+// Progression 2: Setup an event listener - add two functions
 // 1. `helperAddPost()`
 // 2. `helperPost()`
 
 function helperAddPost() {
+  // document.getElementById('popupContact').style.display = 'block';
+  // document.getElementById('popupContact').style.display = 'inline-block';
   document.getElementById('popupContact').style.display = 'inline';
 }
 
